@@ -1,0 +1,19 @@
+.dropdown-toggle::after {
+    content: none;
+}
+
+.cart{
+    cursor: pointer;
+    .cart-dropdown {
+        cursor: default;
+        transform: translateX(-100%);
+        width: 500px;
+    }
+}
+
+.user-text{
+    margin-left: 50px;
+    .nav-link{
+        color: black;
+    }
+}
